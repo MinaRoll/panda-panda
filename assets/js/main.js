@@ -22,3 +22,15 @@ document.getElementById("photo2").classList.remove("ocultar");
 document.getElementById("photo3").classList.remove("ocultar");
 document.getElementById("photo4").classList.remove("ocultar");
 })
+
+//Oculta y muestra texto al hacer click en el botón 'origen'
+document.getElementById("origen").addEventListener("click",function(){
+	var textLeft = document.getElementById("text-left");
+	textLeft.classList.toggle("mostrar");
+})
+
+//Oculta y muestra texto al hacer click en el botón 'extincion'
+document.getElementById("extincion").addEventListener("click",function(){
+	var textRight = document.getElementById("text-right");
+	textRight.classList.toggle("mostrar");
+})
