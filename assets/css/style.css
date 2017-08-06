@@ -53,3 +53,36 @@ nav a:hover {
 	padding: 60px 65px;
 	margin: 40px 20px;
 }
+.ocultar {
+	display: none;
+}
+
+.fotitos a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #f5cb11;
+}
+
+/* Sección segundo menú */
+.nav2 {
+	background-color: #7A5442;
+	width: 909px;
+	height: 50px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+.nav2 a {
+	display: inline-block;
+	text-decoration: none;
+	color: 	#ffffa8;
+	padding: 26px 0;
+	width: 300px;
+	text-align: center;
+}
+
+.nav2 a:hover {
+	background-color: #fff;
+	color: #7A5442;
+	font-weight: bold;
+} 
