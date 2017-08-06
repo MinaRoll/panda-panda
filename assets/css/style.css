@@ -3,14 +3,12 @@ body {
 	margin: 0;
 	background-color: #CF8E6F;
 }
-
 nav {
 	background-color: #7A5442;
 	margin: 0 0 20px 0;
 	padding: 0px 0px 0px 80px;
 	overflow: hidden;
 }
-
 nav a {
 	display: inline-block;
 	text-decoration: none;
@@ -18,9 +16,40 @@ nav a {
 	padding: 26px;
 	text-align: center;
 }
-
 nav a:hover {
 	background-color: #fff;
 	color: #7A5442;
 	font-weight: bold;
+}
+
+/* Seccion Fotos */
+.photos{
+	margin: 0 auto;
+	width: 60%;
+}
+.photo1 {
+	background-image: url(../img/panda1.jpg);
+	border-radius: 20px;
+}
+.photo2 {
+	background-image: url(../img/panda2.jpg);
+	border-radius: 20px;
+}
+.photo3 {
+	background-image: url(../img/panda3.jpg);
+	border-radius: 20px;
+}
+.photo4 {
+	background-image: url(../img/panda4.jpg);
+	border-radius: 20px;
+}
+#cerrar1, #cerrar2, #cerrar3, #cerrar4{
+	position: relative;
+	bottom: 50px;
+	right: 50px;
+}
+.fotitos{
+	display: inline-block;
+	padding: 60px 65px;
+	margin: 40px 20px;
 }
