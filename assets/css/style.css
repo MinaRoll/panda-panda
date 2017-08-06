@@ -86,3 +86,25 @@ nav a:hover {
 	color: #7A5442;
 	font-weight: bold;
 } 
+
+/* Seccion textos */
+.texto {
+	width: 909px;
+	margin: 0 auto;
+}
+.texto p {
+	margin-top: 50px;
+}
+.texto-izquierda {
+	float: left;
+	width: 45%;
+	text-align: justify;
+}
+.texto-derecha {
+	float: right;
+	width: 45%;
+	text-align: justify;
+}
+.mostrar {
+	display: none;
+}
