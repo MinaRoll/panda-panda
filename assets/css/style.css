@@ -1,0 +1,26 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	background-color: #CF8E6F;
+}
+
+nav {
+	background-color: #7A5442;
+	margin: 0 0 20px 0;
+	padding: 0px 0px 0px 80px;
+	overflow: hidden;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: 	#ffffa8;
+	padding: 26px;
+	text-align: center;
+}
+
+nav a:hover {
+	background-color: #fff;
+	color: #7A5442;
+	font-weight: bold;
+}
